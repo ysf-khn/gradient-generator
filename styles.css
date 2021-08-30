@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn-gradient {
+  font-size: 1.5em;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 50px -12px;
+  background: linear-gradient(to right, #c33764, #949bda);
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
